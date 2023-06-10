@@ -2,11 +2,8 @@ package java_4_Beginners_FCC;
 
 class variables {
     public static void main(String[] args){
-        int numberOne;
-        int numberTwo;
-        
-        numberOne = 3;
-        numberTwo = 9;
+        int numberOne = 14;
+        int numberTwo = 9;
 
         int addition = numberOne + numberTwo;
     

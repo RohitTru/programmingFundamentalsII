@@ -1,4 +1,3 @@
-package courseWork.weekOne.chapterOneExercises;
 /*
  * This program prints "Hello World" to the screen
  * Written by Rohit Truesdale

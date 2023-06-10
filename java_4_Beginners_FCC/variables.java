@@ -6,6 +6,8 @@ class variables {
         int localNumberOne = 14; // These are local variables since they are within the the main class. If we were to create another class, these variables would not be accessible.
         int localNumbTwo = 9;
 
+        my_Global_Variable = 14; // we can also reassign our global variable
+
         int addition = localNumberOne + localNumbTwo + my_Global_Variable;
     
         System.out.println("Variable localNumberOne: " + localNumberOne + " + Variable localNumbTwo: " + localNumbTwo + 

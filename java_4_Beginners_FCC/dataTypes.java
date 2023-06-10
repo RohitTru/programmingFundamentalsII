@@ -40,9 +40,14 @@ class dataTypes {
         
          // Instead if you really have to make the conversion you can use
 
-         double number5 = 2.6;
-         int number6 = (int)number5;
-         System.out.println(number6);
+            double number5 = 2.6;
+            int number6 = (int)number5;
+            System.out.println(number6);
+
+         // To create an immutable object in java we can use final
+            final double PRICE = 19.99; //"PRICE" is in all caps as a means to distinguish immutable variables from non - java unspoken rules
+            // PRICE += .01; // This line is commented out because it is not possible to manipulate a immutable object
+
 
     }
 

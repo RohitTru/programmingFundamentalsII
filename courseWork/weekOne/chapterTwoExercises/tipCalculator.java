@@ -7,7 +7,7 @@
 import java.text.NumberFormat;
 import javax.swing.JOptionPane;
 
-class dataTypes{
+class tipCalculator{
     public static void main(String[] args){
         //Retrieving bill amount
         String input = JOptionPane.showInputDialog(null,"Enter the total bill");

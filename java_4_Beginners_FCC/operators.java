@@ -25,6 +25,28 @@ class operators {
         System.out.println("number1's original value was 12, but now its: " + number1);
 
         //relational operators
+        // is equal to
+        number1 = 12;
+        number2 = 15;
+        System.out.println(number1 == number2);
+        
+
+        // is not equal to
+        System.out.println(number1 != number2);
+
+        // is greater than
+        System.out.println(number1 > number2);
+        
+        // is less than
+        System.out.println(number1 < number2);
+
+        // is greater than or equal to
+        System.out.println(number1 >= number2);
+
+        // is less than or or equal to
+        System.out.println(number1 <= number2);
+
+        
         
     }
     

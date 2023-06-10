@@ -48,7 +48,17 @@ class dataTypes {
             final double PRICE = 19.99; //"PRICE" is in all caps as a means to distinguish immutable variables from non - java unspoken rules
             // PRICE += .01; // This line is commented out because it is not possible to manipulate a immutable object
 
-
+        //Strings
+        String name;
+        name = "Rohit";
+        System.out.println(name);
+        
+        //var keyword tells the compiler to determine the variable's data type
+        var amount = 100;
+        var stockCode = "D465U";
+        var limit = 100L;
+        
+        //var x, y, z = 99; //you cannot declare multiple variables in one statement using var
     }
 
 }

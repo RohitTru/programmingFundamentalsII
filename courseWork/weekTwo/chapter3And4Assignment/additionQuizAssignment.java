@@ -35,6 +35,17 @@ import javax.swing.JOptionPane;
 
         }
 
+        // Percent correct calculator
+        double percentage = (double)amountOfCorrectQs / amountOfQuestions * 100.0;
+
+        
+        // Pass or fail?
+        if (percentage > 70) {
+            JOptionPane.showMessageDialog(null, "Your achieved " + amountOfCorrectQs + " out of " + amountOfQuestions + " question(s) correct.\n"
+                + String.format("%.2f%%", percentage), "Results", JOptionPane.INFORMATION_MESSAGE);
+        }
+            
+
 
 
 

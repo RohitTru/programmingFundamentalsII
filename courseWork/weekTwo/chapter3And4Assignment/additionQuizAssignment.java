@@ -13,10 +13,17 @@ import javax.swing.JOptionPane;
         int amountOfQuestions = 0;
         int amountOfCorrectQs = 0;
 
-        // retrieve the number of questions from user
-        amountOfQuestions = Integer.parseInt(JOptionPane.showInputDialog(null, "How many addition problems would you like to attempt?"));
+        // retrieve the number of questions from user and number validation check
+        boolean validInput = false;
+        while (!validInput){
+            amountOfQuestions = Integer.parseInt(JOptionPane.showInputDialog(null, "How many addition problems would you like to attempt?"));
 
-        
+            if (amountOfQuestions < 0) {
+                JOptionPane.showMessageDialog(null, "Invalid input. Please enter a positive number greater than zero.");
+            } else {
+                validInput = true;
+            }
+        }
         for (int i =0; i < amountOfQuestions; i++){
             int firstNum = (int)(Math.random() * 50 + 1);
             int secondNum = (int)(Math.random() * 50 +1 );

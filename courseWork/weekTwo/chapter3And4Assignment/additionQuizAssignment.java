@@ -4,9 +4,9 @@
  * 11.0.19
  */
 
- import java.swing.JOptionPane;
+import javax.swing.JOptionPane;
 
- public class additionQuiz{
+ public class additionQuizAssignment{
     public static void main(String[] args){
         
         // Declaration of variables
@@ -14,9 +14,15 @@
         int amountOfCorrectQs = 0;
 
         // retrieve the number of questions from user
-        amountOfQuestions = (Integer)parseInt(JOptionPane.showInputDialog(null, "How many addition problems would you like to attempt?"));
-        System.out.println(amountOfQuestions);
+        amountOfQuestions = Integer.parseInt(JOptionPane.showInputDialog(null, "How many addition problems would you like to attempt?"));
+
         
+        for (int i =0; i < amountOfQuestions; i++){
+            int firstNum = (int)(Math.random() * 50 + 1);
+            int secondNum = (int)(Math.random() * 50 +1 );
+        }
+
+
 
 
     }

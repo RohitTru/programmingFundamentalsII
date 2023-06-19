@@ -41,8 +41,11 @@ import javax.swing.JOptionPane;
         
         // Pass or fail?
         if (percentage > 70) {
-            JOptionPane.showMessageDialog(null, "Your achieved " + amountOfCorrectQs + " out of " + amountOfQuestions + " question(s) correct.\n"
+            JOptionPane.showMessageDialog(null, "Congratulations, You passed!\nYour achieved " + amountOfCorrectQs + " out of " + amountOfQuestions + " question(s) correct.\n"
                 + String.format("%.2f%%", percentage), "Results", JOptionPane.INFORMATION_MESSAGE);
+        } else {
+            JOptionPane.showMessageDialog(null, "You failed:\n" + amountOfCorrectQs + " out of " + amountOfQuestions + " question(s) correct.\n"
+                + String.format("%.2f%%", percentage) + "\nYou did not pass this addition quiz. Please try again.", "Results", JOptionPane.INFORMATION_MESSAGE);
         }
             
 

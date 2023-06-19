@@ -16,6 +16,7 @@
         // retrieve the number of questions from user
         amountOfQuestions = (Integer)parseInt(JOptionPane.showInputDialog(null, "How many addition problems would you like to attempt?"));
         System.out.println(amountOfQuestions);
+        
 
 
     }

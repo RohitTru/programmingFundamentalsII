@@ -20,6 +20,19 @@ import javax.swing.JOptionPane;
         for (int i =0; i < amountOfQuestions; i++){
             int firstNum = (int)(Math.random() * 50 + 1);
             int secondNum = (int)(Math.random() * 50 +1 );
+
+            // Present question and retrieve answer
+            int userInput = Integer.parseInt(JOptionPane.showInputDialog(null, firstNum + " + " + secondNum + "= ?"));
+
+            // validation of answers
+            if ((firstNum + secondNum) == userInput){
+                amountOfCorrectQs++;
+                JOptionPane.showMessageDialog(null, "Correct", "Validation", JOptionPane.INFORMATION_MESSAGE);
+
+            } else {
+                JOptionPane.showMessageDialog(null, "Incorrect", "Validation", JOptionPane.INFORMATION_MESSAGE);
+            }
+
         }
 
 

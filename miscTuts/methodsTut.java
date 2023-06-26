@@ -23,7 +23,7 @@ public class methodsTut {
     }
 
     // Prints dotted line based on passed in argument
-    	public static void dashedLine(int x){
+    public static void dashedLine(int x){
 
         if (x <= 0);
         

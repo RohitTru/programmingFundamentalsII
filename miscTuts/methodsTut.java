@@ -9,6 +9,7 @@ public class methodsTut {
         System.out.println("First enter your name then your age: ");
         dashedLine(45);
         System.out.println(getName() + " " + getAge());
+        System.out.print("The highest number " + max(45,23,1023) +"\n");
         
     }
     
@@ -35,4 +36,18 @@ public class methodsTut {
             System.out.println("");
         }
     }
+	
+	public static int max(int x, int y, int z){
+        if (x > y && x > z)
+            return x;
+        else if (y > x && y > z)
+            return y;
+        else if (z > y && z > x)
+            return z;
+        else{
+            return 0;
+        }
+    }
+
+
 }

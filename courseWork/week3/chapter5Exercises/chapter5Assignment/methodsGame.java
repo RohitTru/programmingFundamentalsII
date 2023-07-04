@@ -19,12 +19,12 @@ public class methodsGame{
         
         while (runAgain.equalsIgnoreCase("yes")) {
             int numb = random.nextInt(10) + 1;
-            boolean plaentFact = switchPlanet(numb); // get fact
+            boolean planetFact = switchPlanet(numb); // get fact
             
             System.out.print("True or False? "); // Print true or false
             String userResponse = scanner.nextLine(); // Read in true or false
             
-            compareAnswer(plaentFact, userResponse.equalsIgnoreCase("true")); // call
+            compareAnswer(planetFact, userResponse.equalsIgnoreCase("true")); // call
             System.out.print("Play again (yes or no)? ");
             runAgain = scanner.nextLine();
         }

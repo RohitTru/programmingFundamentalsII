@@ -1,3 +1,8 @@
+/* This program tracks and calculates the total number of bottles sold as well as the highest and lowest user inputted soda type
+ * Rohit Truesdale 07/09/2023
+ * 11.0.19
+ */
+
 package courseWork.week5.chapter7Assignment;
 
 import java.util.Scanner;

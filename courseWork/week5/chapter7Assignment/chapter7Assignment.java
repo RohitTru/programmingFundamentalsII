@@ -3,8 +3,6 @@
  * 11.0.19
  */
 
-package courseWork.week5.chapter7Assignment;
-
 import java.util.Scanner;
 
 public class chapter7Assignment {

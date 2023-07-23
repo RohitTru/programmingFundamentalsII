@@ -1,5 +1,3 @@
-package courseWork.week7;
-
 import java.util.Scanner;
 
 public class EmailValidator {
